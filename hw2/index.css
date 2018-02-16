@@ -1,0 +1,175 @@
+body {
+	background-color: #fcfefc;
+}
+
+html, body {
+	height: 100%;
+}
+
+.nav {
+	position: fixed;
+	bottom: 35px;
+	left:20%;
+	color: darkblue;
+	font:12px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: .8px;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	display: inline;
+	margin:0px 5px 0px 5px;
+}
+
+section {
+	width: 360px;
+	position: fixed;
+	right: 25%;
+	top: 60px;
+	text-align: center;
+	font-family: arial, Helvetica, sans-serif;
+}
+
+h2 {
+	font:35px Impact, sans-serif;
+	letter-spacing: 2px;
+	margin:15px 0px;
+}
+
+h4 {
+	font-size: 13px;
+	color:rgba(0,0,0,.5);
+}
+
+span {
+	color:rgba(0,0,0,.5);
+	letter-spacing: -1px;
+}
+
+input {
+	width: 78%;
+	margin-top:10px;
+	font-size: 14px;
+	height:2.1em;
+	background-color: #fcfefc;
+	border-style: none;
+	border: 1px solid rgba(0,0,0,.05);
+	border-radius: 2px;
+}
+
+input::placeholder {
+	font-weight: lighter;
+	color: rgba(0,0,0,.5);
+}
+
+input:focus {
+	border: 1px solid rgba(0,0,0,.5);
+	outline:0;
+}
+
+@keyframes faded {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.fader {
+	width:240px;
+	height:420px;
+	position: fixed;
+	left: 32.5%;
+	top:100px;
+	z-index: 3;
+	animation-name: faded;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+.fader-1 {
+	width:240px;
+	height:420px;
+	position: fixed;
+	left: 32.5%;
+	top:100px;
+	z-index: 2;
+	animation-name: faded;
+	animation-duration: 10s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+}
+
+.hero {
+	height: 80%;
+	float: left;
+	position: fixed;
+	left: 22.5%;
+	min-width: 380px;
+	min-height: 600px;
+}
+
+.container {
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.1);
+	margin: 5px 20px;
+}
+
+.button {
+	width: 80%;
+	background-color: #69e;
+	color:white;
+	border-style: none;
+	border-radius: 2px;
+	margin: .8em;
+	height: 2em;
+	font-size: 14px;
+}
+
+.icon {
+	height:15px;
+	width:15px;
+	position: relative;
+	top: 2px;
+}
+
+.passloss {
+	position: relative;
+	top: 40px;
+	font-size: 12px;
+}
+
+.facebook {
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: .2px;
+}
+
+a:link, a:visited {
+	color: darkblue;
+	text-decoration: none;
+}
+
+.storeicon {
+	width: 135px;
+	height: 40px;
+}
+
+#box1 {
+	height: 360px;
+}
+
+#box2 {
+	font-size: 14px;
+	padding:10px 5px;
+}
+
+#box2 a {
+	color: blue;
+}
+
+.closer {
+	font-size: 14px;
+}
